@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -17,7 +17,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/')
 
 'step 2: At Page home click on button start flow 1 --> navigate to Page dvc-login'
 
-testObj = findTestObject('Object Repository/Page_home/button_start_flow_1')
+testObj = findTestObject('AI-Generated/Page_home/button_start_flow_1')
 
 WebUI.delay(3)
 
@@ -25,13 +25,13 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementPresent(testObj, 20, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(WebUI.getUrl(), '.*/(?:#.*)?(?:\\?.*)?$', true)
+WebUI.verifyMatch(WebUI.getUrl(), '.*//?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(testObj)
 
 'step 3: Add visual checkpoint at Page dvc-login'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Device Login Page after Starting Flow1_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Navigation to Device Login Page from Home_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
