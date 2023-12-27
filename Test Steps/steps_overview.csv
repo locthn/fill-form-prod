@@ -2,11 +2,11 @@ Flow ID,Description,Test Steps,Flow Priority
 1,Verify Successful Navigation to Device Login Page,"step 1: Navigate to Page home
 step 2: At Page home click on button start flow 1 --> navigate to Page dvc-login
 step 3: Add visual checkpoint at Page dvc-login",High
-2,Verify Successful Navigation to Contact Page,"step 1: Navigate to Page contact
+2,Verify Successful Navigation to Contact Page,"step 1: Navigate to Page home --> navigate to Page contact
 step 2: Add visual checkpoint at Page contact",Medium
-4,Verify Successful Navigation to Contact Step2 Page,"step 1: Navigate to Page contact step2
+4,Verify Successful Navigation to Contact Step2 Page,"step 1: Navigate to Page home --> navigate to Page contact step2
 step 2: Add visual checkpoint at Page contact step2",Trivial
-5,Verify Successful Navigation to Contact Step1 Page,"step 1: Navigate to Page contact step1
+5,Verify Successful Navigation to Contact Step1 Page,"step 1: Navigate to Page home --> navigate to Page contact step1
 step 2: Add visual checkpoint at Page contact step1",Trivial
-3,Verify Successful Navigation to Contact Step3 Page,"step 1: Navigate to Page contact step3
+3,Verify Successful Navigation to Contact Step3 Page,"step 1: Navigate to Page home --> navigate to Page contact step3
 step 2: Add visual checkpoint at Page contact step3",Trivial
